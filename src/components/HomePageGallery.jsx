@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import BuildCon1 from '../assets/buildcon001.png';
 import BuildCon2 from '../assets/buildcon002.png';
 import BuildCon3 from '../assets/buildcon003.png';
@@ -10,10 +11,9 @@ import BuildCon10 from '../assets/buildcon010.png';
 import BuildCon11 from '../assets/buildcon011.png';
 import BuildCon12 from '../assets/buildcon012.png';
 import BuildCon13 from '../assets/buildcon013.png';
-import { useState, useEffect } from 'react';
 
 const HomePageGallery = () => {
-    // All available images
+    // All available images with proper imports
     const allImages = [
         { img: BuildCon1, alt: "Construction project 1" },
         { img: BuildCon2, alt: "Construction project 2" },
@@ -31,6 +31,8 @@ const HomePageGallery = () => {
 
     // State to hold the randomly selected images for mobile
     const [mobileImages, setMobileImages] = useState([]);
+    // State to track loaded images
+    const [loadedImages, setLoadedImages] = useState({});
 
     // Get 4 random images for mobile
     useEffect(() => {
@@ -38,18 +40,30 @@ const HomePageGallery = () => {
         setMobileImages(shuffled.slice(0, 4));
     }, []);
 
+    // Skeleton loader component
+    const SkeletonLoader = ({ className }) => (
+        <div className={`bg-gray-200 animate-pulse rounded-lg ${className}`}></div>
+    );
+
     return (
         <section className="py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 {/* Mobile View (4 random images) */}
                 <div className="md:hidden columns-1 gap-4">
                     {mobileImages.map((image, i) => (
-                        <div key={`mobile-${i}`} className="mb-4 break-inside-avoid">
+                        <div key={`mobile-${i}`} className="mb-4 break-inside-avoid relative">
                             <img 
-                                src={image.img} 
-                                alt={image.alt} 
-                                className="w-full h-48 object-cover rounded-lg"
+                                src={image.img}
+                                alt={image.alt}
+                                className={`w-full h-48 object-cover rounded-lg transition-opacity duration-300 ${
+                                    loadedImages[`mobile-${i}`] ? 'opacity-100' : 'opacity-0'
+                                }`}
+                                loading="lazy"
+                                onLoad={() => setLoadedImages(prev => ({...prev, [`mobile-${i}`]: true}))}
                             />
+                            {!loadedImages[`mobile-${i}`] && (
+                                <SkeletonLoader className="w-full h-48 absolute inset-0" />
+                            )}
                         </div>
                     ))}
                 </div>
@@ -57,12 +71,23 @@ const HomePageGallery = () => {
                 {/* Desktop View (all images) */}
                 <div className="hidden md:block columns-2 md:columns-3 lg:columns-4 gap-2">
                     {allImages.map((image, i) => (
-                        <div key={`desktop-${i}`} className="mb-2 break-inside-avoid">
+                        <div key={`desktop-${i}`} className="mb-2 break-inside-avoid relative">
                             <img 
-                                src={image.img} 
-                                alt={image.alt} 
-                                className={`w-full object-cover ${i % 3 === 0 ? 'h-64' : i % 2 === 0 ? 'h-80' : 'h-96'}`}
+                                src={image.img}
+                                alt={image.alt}
+                                className={`w-full object-cover rounded-lg transition-opacity duration-300 ${
+                                    i % 3 === 0 ? 'h-64' : i % 2 === 0 ? 'h-80' : 'h-96'
+                                } ${
+                                    loadedImages[`desktop-${i}`] ? 'opacity-100' : 'opacity-0'
+                                }`}
+                                loading="lazy"
+                                onLoad={() => setLoadedImages(prev => ({...prev, [`desktop-${i}`]: true}))}
                             />
+                            {!loadedImages[`desktop-${i}`] && (
+                                <SkeletonLoader className={`w-full absolute inset-0 ${
+                                    i % 3 === 0 ? 'h-64' : i % 2 === 0 ? 'h-80' : 'h-96'
+                                }`} />
+                            )}
                         </div>
                     ))}
                 </div>
