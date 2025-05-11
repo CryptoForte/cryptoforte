@@ -36,7 +36,7 @@ const Home = () => {
                 <img
                   src={logo}
                   alt={`Partner ${index + 1}`}
-                  className="h-10 w-16 md:h-12 md:w-12 object-cover " // Equal height and width
+                  className="h-8 w-8 md:h-12 md:w-12 object-cover " // Equal height and width
                 />
               </div>
             ))}

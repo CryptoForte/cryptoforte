@@ -9,7 +9,7 @@ import BuildCon5 from '../assets/buildcon006.png';
 export const eventList = [
     {
       id: 1,
-      name: "Keni Golf",
+      name: "Blockchain Vibes 2025",
       address: "Kano, Nigeria",
       date: "10th June, 2025",
       // link: '/seemore',
@@ -18,7 +18,7 @@ export const eventList = [
     },
     {
       id: 2,
-      name: "Dame Rafer",
+      name: "Blockchain Vibes 2025",
       address: "Ife, Nigeria",
       date: "31th June, 2025",
       // link: '/seemore',
@@ -27,7 +27,7 @@ export const eventList = [
     },
     {
       id: 3,
-      name: "Henry Oreshi",
+      name: "Blockchain Vibes 2025",
       address: "Ibadan, Nigeria",
       date: "12th April, 2025",
       // link: '/seemore',
@@ -36,7 +36,7 @@ export const eventList = [
     },
     {
       id: 4,
-      name: "Rhones Capres",
+      name: "Blockchain Vibes 2025",
       address: "Asaba, Nigeria",
       date: "2nd Mar, 2025",
       // link: '',
@@ -45,7 +45,7 @@ export const eventList = [
     },
     {
       id: 5,
-      name: "Devest 2025",
+      name: "Blockchain Vibes 2025",
       address: "Abuja, Nigeria",
       date: "24th, July 2025",
       // link: '/seemore',
@@ -54,7 +54,7 @@ export const eventList = [
     },
     {
       id: 6,
-      name: "BuildCOn 2026",
+      name: "Blockchain Vibes 2025",
       address: "Ife, Nigeria",
       date: "15th, Oct 2025",
       // link: '/seemore',

@@ -11,18 +11,18 @@ import topRightImage from '../assets/candyshapes.png';
 const Header = () => {
   return (
     <section className="relative flex justify-center flex-col lg:flex-row md:h-[400px]  items-center px-4 lg:px-20 bg-primary">
-      <div className="absolute top-0 right-0 p-0 z-0">
+      <div className="absolute top-[-8px] md:top-[-8px] right-0 p-0 z-0">
         <img 
           src={topRightImage} 
           alt="Top Right" 
-          className="w-32 h-32 object-cover" 
+          className="w-10 md:w-32 md:h-32 object-cover" 
         />
       </div>
-      <div className="absolute bottom-0 left-0 p-0 z-0">
+      <div className="absolute bottom-[-136px] md:bottom-[-156px] left-0 p-0 z-0">
         <img 
           src={topRightImage} 
           alt="Top Right" 
-          className="w-32 h-32 rotate-180 object-cover" 
+          className="w-10 md:w-32 md:h-32 rotate-180 object-cover" 
         />
       </div>
       

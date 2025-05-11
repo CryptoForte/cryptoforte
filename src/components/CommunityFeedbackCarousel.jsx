@@ -10,7 +10,7 @@ const CommunityFeedbackCarousel = () => {
       id: 1,
       name: "Regbin Bami",
       content:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various",
+        "CryptoForte brought me into the blockchain world and it has been one of the best things to happen to me. I wonder where my life would have been headed if I didn't come in contact with CryptoForte in 2021",
       comm_relation: "Community Member",
       image: "",
     },
@@ -18,7 +18,7 @@ const CommunityFeedbackCarousel = () => {
       id: 2,
       name: "Adunbola Rose",
       content:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various",
+        "CryptoForte brought me into the blockchain world and it has been one of the best things to happen to me. I wonder where my life would have been headed if I didn't come in contact with CryptoForte in 2021",
       comm_relation: "Community Member",
       image: "",
     },
@@ -26,7 +26,7 @@ const CommunityFeedbackCarousel = () => {
       id: 3,
       name: "Tolu Adesoye",
       content:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various",
+        "CryptoForte brought me into the blockchain world and it has been one of the best things to happen to me. I wonder where my life would have been headed if I didn't come in contact with CryptoForte in 2021",
       comm_relation: "Community Member",
       image: "",
     },
@@ -34,7 +34,7 @@ const CommunityFeedbackCarousel = () => {
       id: 4,
       name: "Dennis Cage",
       content:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various",
+        "CryptoForte brought me into the blockchain world and it has been one of the best things to happen to me. I wonder where my life would have been headed if I didn't come in contact with CryptoForte in 2021",
       comm_relation: "Top Executive",
       image: "",
     },
@@ -42,7 +42,7 @@ const CommunityFeedbackCarousel = () => {
       id: 5,
       name: "Rose Bane",
       content:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various",
+        "CryptoForte brought me into the blockchain world and it has been one of the best things to happen to me. I wonder where my life would have been headed if I didn't come in contact with CryptoForte in 2021",
       comm_relation: "Affliate Member",
       image: "",
     },
@@ -50,7 +50,7 @@ const CommunityFeedbackCarousel = () => {
       id: 6,
       name: "Adunbola Rose",
       content:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various",
+        "CryptoForte brought me into the blockchain world and it has been one of the best things to happen to me. I wonder where my life would have been headed if I didn't come in contact with CryptoForte in 2021",
       comm_relation: "Community Member",
       image: "",
     },
