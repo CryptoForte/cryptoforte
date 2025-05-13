@@ -73,8 +73,7 @@ const EventsCarousel = () => {
         <div className='text-center my-4'>
           <h3 className='text-3xl font-bold mb-4'>Check Our Events</h3>
           <p className='text-sm md:text-lg md:mx-28 text-center'>
-            New to Web3? You're in the right place! Join the CryptoForte community for fun and engaging events—Twitter Spaces, 
-            webinars, and more. Learn, connect, and grow with us, one step at a time!
+            New to Web3? You’re in the right place! Join the CryptoForte community for fun and engaging events—Twitter Spaces, webinars and more. Learn, connect and grow with us, one step at a time!
           </p>
         </div>
         

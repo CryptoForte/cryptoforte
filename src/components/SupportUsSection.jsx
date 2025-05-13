@@ -22,7 +22,7 @@ const DonationModal = () => {
       <div className='text-center'>
         <h1 className='text-xl md:text-4xl font-bold my-4'>Support the Future of Web3 🚀</h1>
         <p className='px-4 md:px-32'>
-          Your donation helps us make crypto simple, accessible, and beginner-friendly. Every contribution counts, 
+          Your donation helps us make crypto simple, accessible and beginner-friendly. Every contribution counts, 
           ensuring secure and transparent giving while empowering more people to navigate Web3 with confidence. 
           Be part of the change—donate now and shape the future of crypto!
         </p>

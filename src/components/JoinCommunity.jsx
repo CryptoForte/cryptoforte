@@ -13,8 +13,8 @@ const JoinCommunity = () => {
           <img src={GroupImg} alt="CryptoForte" />
         </article>
         <p className='text-justify'>
-          Step into a world where Web3 is simple, welcoming, and easy to navigate. Whether you n&#39;re just starting or looking to grow, 
-          our community is here to support you every step of the way. Connect, learn, and explore with like-minded people—because crypto 
+          Step into a world where Web3 is simple, welcoming and easy to navigate. Whether you&#39;re just starting or looking to grow, 
+          our community is here to support you every step of the way. Connect, learn and explore with like-minded people—because crypto 
           is better together!
         </p>
         <JoinButton />

@@ -55,7 +55,7 @@ const Navbar = () => {
                 <li><NavLink to="/events">Events</NavLink></li>
                 <li><NavLink to="/about-us">About Us</NavLink></li>
                 <li><NavLink to="/contact-us">Contact Us</NavLink></li>
-                <li><NavLink to="/contents">Contents</NavLink></li>
+                <li><NavLink to="/contents">Resources</NavLink></li>
               </ul>
             </nav>
 
@@ -106,7 +106,7 @@ const Navbar = () => {
               <li><NavLink to="/events">Events</NavLink></li>
               <li><NavLink to="/about-us">About Us</NavLink></li>
               <li><NavLink to="/contact-us">Contact Us</NavLink></li>
-              <li><NavLink to="/contents">Contents</NavLink></li>
+              <li><NavLink to="/contents">Resources</NavLink></li>
               <li>
                 <button 
                   onClick={handleJoinClick}
