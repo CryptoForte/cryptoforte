@@ -74,7 +74,7 @@ const Aboutus = () => {
           <h1 className="text-4xl text-center font-bold">About Us</h1> 
           <div className="max-w-3xl mx-auto text-center text-gray-700 my-8">
             <p className="text-sm md:text-lg text-justify px-3"> CryptoForte is a blockchain education platform dedicated to bridging the 
-              gap in blockchain literacy for Africans. We simplify blockchain, cryptocurrency, decentralized finance (DeFi), and related 
+              gap in blockchain literacy for Africans. We simplify blockchain, cryptocurrency, decentralized finance (DeFi) and related 
               technologies, making them accessible to all. Through structured onboarding, we cover blockchain fundamentals, trading 
               strategies, and digital opportunities like DeFi jobs By fostering financial education and career growth, we are building 
               a thriving community of blockchain innovators and professionals
@@ -92,9 +92,9 @@ const Aboutus = () => {
               <h3 className="md:text-3xl font-bold mt-8 md:mt-14">Mission</h3>
               <p className="mt-4 md:mt-8 mr-4 md:mr-24 text-sm md:text-md text-justify">
                 We are committed to creating a dynamic, inclusive community where everyone—from beginners to seasoned experts—can learn, 
-                grow, and thrive in the world of crypto. Through mentorship, education, and shared opportunities, we aim to break down 
+                grow and thrive in the world of crypto. Through mentorship, education and shared opportunities, we aim to break down 
                 barriers and empower users to navigate the evolving Web3 landscape with confidence. By fostering collaboration and 
-                innovation, we strive to shape a future where crypto is accessible, rewarding, and inclusive for all. 
+                innovation, we strive to shape a future where crypto is accessible, rewarding and inclusive for all. 
               </p>
             </div>
             {/*Vision*/}
@@ -105,7 +105,7 @@ const Aboutus = () => {
               <h3 className="md:text-3xl font-bold mt-8 md:mt-14">Mission</h3>
               <p className="mt-4 md:mt-8 mr-4 md:mr-24 text-sm md:text-md text-justify">
                 CryptoForte makes blockchain literacy accessible to Africans, empowering them with skills for the digital economy. 
-                Through education and partnerships, we bridge knowledge gaps in blockchain, crypto, and DeFi. Having introduced 5,000+ 
+                Through education and partnerships, we bridge knowledge gaps in blockchain, crypto and DeFi. Having introduced 5,000+ 
                 Africans to Web3, we continue to drive financial literacy and economic empowerment.
               </p>
             </div>
