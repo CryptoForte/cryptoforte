@@ -11,11 +11,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           {/* Logo */}
           <div className="flex items-center gap-3 mb-4 md:mb-0">
-            <img src={Logo} alt="CryptoForte Logo" className="h-10" />
+            <img src={Logo} alt="CryptoForte Logo" className="h-8 md:h-10" />
           </div>
 
           {/* Socials */}
-          <div className="flex items-center space-x-4 text-lg">
+          <div className="flex items-center mt-4 md:mt-0 space-x-4 text-lg">
             <a target='_blank' href="https://youtube.com/@thecryptoforte?si=-jyLsHIpYJTn7haP" className="hover:text-gray-400"><FaYoutube /></a>
             <a target='_blank' href="#" className="hover:text-gray-400"><FaFacebookF /></a>
             <a target='_blank' href="https://x.com/thecryptoforte" className="hover:text-gray-400"><FaTwitter /></a>

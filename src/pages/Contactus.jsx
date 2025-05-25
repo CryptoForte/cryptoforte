@@ -70,7 +70,7 @@ const Contactus = () => {
     setIsSubmitting(true);
 
     const formData = new FormData(form.current);
-    fetch('https://formspree.io/f/mjkwwodj', {
+    fetch('https://formspree.io/f/xkgrelnp', {
       method: 'POST',
       body: formData,
       headers: {
@@ -101,12 +101,12 @@ const Contactus = () => {
         <div className='flex justify-center'>
           <p className=' bg-black px-4 py-2 rounded-tl-2xl rounded-tr-2xl text-white w-fit '>Contact Us</p>
         </div>
-        <div className="max-w-md mx-auto p-6 bg-white rounded-2xl shadow-md ">
-          <h2 className="text-xl text-center font-bold text-gray-800 mb-6">Hi There, We will like to know you better</h2>
+        <div className="max-w-md mx-1.5 md:mx-auto p-6  bg-white rounded-2xl shadow-md ">
+          <h2 className="text-base md:text-xl text-center font-bold text-gray-800 mb-6">Hi There, We will like to know you better</h2>
           <form 
             ref={form} 
             onSubmit={handleSubmit}
-            className="space-y-4"
+            className="space-y-4 "
           >
             {/* Full Name */}
             <div>

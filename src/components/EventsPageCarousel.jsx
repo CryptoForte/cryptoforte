@@ -58,7 +58,7 @@ const EventsPageCarousel = () => {
                     <p className="text-red-300 text-sm mb-4">{list.date}</p>
                     <Link
                       to={`/events/${list.id}`}
-                      className="flex items-center gap-2 w-fit  "
+                      className="flex items-center gap-2 w-fit mb-2 md:mb-0 "
                     >
                       Learn More
                       <FaArrowRight className="text-sm mt-1" />

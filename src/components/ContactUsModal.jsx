@@ -9,7 +9,7 @@ export default function Modal({ show, onClose }) {
             We've received your message and will get back to you soon.
           </p>
           <p className="text-gray-600 mb-6">
-            Join our WhatsApp community to stay updated:
+            Join our community to stay updated:
           </p>
           <a
             href="https://t.me/thecryptoforte"

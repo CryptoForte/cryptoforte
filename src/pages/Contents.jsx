@@ -85,9 +85,9 @@ const Contents = () => {
 
   return (
     <section>
-      <section className="bg-blue-600 h-96 text-center text-white">
+      <section className="bg-blue-600 h-60 md:h-96 text-center text-white">
         <h2 className="pt-20 font-semibold text-2xl md:text-4xl">Resource Center</h2>
-        <p className="pt-4 text-sm md:text-lg">Get Resources to Learn everything about the blockchain from basics to advance</p>
+        <p className="pt-4 px-4 text-sm md:text-lg">Get Resources to Learn everything about the blockchain from basics to advance</p>
       </section> 
       
       {/* Featured Cards Section */}
