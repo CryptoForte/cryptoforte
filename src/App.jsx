@@ -9,6 +9,7 @@ import Contents from './pages/Contents';
 import SingleEvent from './pages/SingleEvent';
 import Footer2 from './components/Footer2';
 import ScrollToTop from './components/ScrollToTop';
+import NotFound from './pages/PageNotFound';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         <Route path='/contents' element={< Contents />} />
         <Route path='/about-us' element={< AboutUs />} />
         <Route path='/contact-us' element={< ContactUs />} />
-        
+         <Route path='*' element={<NotFound />} /> 
       </Routes> 
       <Footer2 />
     </>
