@@ -25,7 +25,7 @@ function App() {
         <Route path='/contents' element={< Contents />} />
         <Route path='/about-us' element={< AboutUs />} />
         <Route path='/contact-us' element={< ContactUs />} />
-         <Route path='*' element={<NotFound />} /> 
+        <Route path='*' element={<NotFound />} /> 
       </Routes> 
       <Footer2 />
     </>
